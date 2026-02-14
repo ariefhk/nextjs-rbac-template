@@ -1,0 +1,6 @@
+echo "🔍 Running lint-staged..."
+pnpm dlx lint-staged
+
+echo
+echo "🏗️ Running build to check for errors..."
+pnpm build

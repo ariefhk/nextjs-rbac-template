@@ -1,0 +1,15 @@
+.next
+node_modules
+out
+build
+dist
+coverage
+*.lock
+package-lock.json
+yarn.lock
+bun.lockb
+.env*
+.vercel
+.turbo
+public
+generated/prisma

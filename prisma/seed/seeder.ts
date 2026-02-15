@@ -1,7 +1,10 @@
 import { prisma } from '@/lib/prisma';
+import { userSeed } from './user-seed';
 
 async function seeder() {
   console.log('🌱 Seeding database...');
+
+  await userSeed();
 
   console.log('✅ Database seeded successfully!');
 }
